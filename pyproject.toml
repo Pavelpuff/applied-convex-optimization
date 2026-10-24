@@ -1,0 +1,19 @@
+[project]
+name = "applied-convex-optimization"
+version = "0.1.0"
+description = "Numerical models and convex optimization algorithms for quantitative risk and metric learning"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cvxpy>=1.9.3",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "ruff>=0.17.2",
+]
